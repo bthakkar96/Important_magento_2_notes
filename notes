@@ -1,0 +1,3 @@
+//custom code block function in design folder
+$blockObj= $block->getLayout()->createBlock('Iverve\Categoryonhome\Block\Category');
+$categories = $blockObj->getStoreCategories(true,false,true);
